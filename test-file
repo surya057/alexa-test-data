@@ -1,0 +1,30 @@
+{
+	"devices": [{
+			"id": 1,
+			"device name": "iPhone"
+		},
+		{
+			"id": 2,
+			"device name": "One plus"
+		},
+		{
+			"id": 3,
+			"device name": "Samsung"
+		}
+	],
+	"articles List": [{
+			"id": "iPhone",
+			"articles": [{
+				"id": "unlock device",
+				"desc": "to unlock a device press power button"
+			}]
+		},
+		{
+			"id": "One plus",
+			"articles": [{
+				"id": "unlock device",
+				"desc": "to unlock a device press power button on your one pplus"
+			}]
+		}
+	]
+}
