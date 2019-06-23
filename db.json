@@ -1,30 +1,52 @@
 {
-	"devices": [{
-			"id": 1,
-			"device name": "iPhone"
-		},
-		{
-			"id": 2,
-			"device name": "One plus"
-		},
-		{
-			"id": 3,
-			"device name": "Samsung"
+	"title": "Unlock my device article",
+	"templateType": "demo-2-article",
+	":itemsOrder": ["root"],
+	":items": {
+		"root": {
+			"columnCount": 12,
+			"gridClassNames": "aem-Grid aem-Grid--12 aem-Grid--default--12",
+			":itemsOrder": ["contentfragment"],
+			":items": {
+				"contentfragment": {
+					"description": "",
+					"title": "Unlock my device article",
+					"model": "EE_CF_for_voice_channel/models/unlock-my-device-",
+					"elements": {
+						"stepOne": {
+							"value": "log in to My EE",
+							"dataType": "string",
+							"title": "Step:1",
+							":type": "string"
+						},
+						"stepTwo": {
+							"value": "go to Menu and select Manage Devices",
+							"dataType": "string",
+							"title": "Step:2",
+							":type": "string"
+						},
+						"stepThree": {
+							"value": "choose the Device tools tab",
+							"dataType": "string",
+							"title": "Step:3",
+							":type": "string"
+						},
+						"stepFour": {
+							"value": "select Unlock your phone then follow the instructions",
+							"dataType": "string",
+							"title": "Step:4",
+							":type": "string"
+						}
+					},
+					":type": "weretail/components/content/contentfragment",
+					":itemsOrder": [],
+					"elementsOrder": ["stepOne", "stepTwo", "stepThree", "stepFour"],
+					":items": {},
+					"columnClassNames": "aem-GridColumn aem-GridColumn--default--12"
+				}
+			},
+			":type": "wcm/foundation/components/responsivegrid"
 		}
-	],
-	"articles List": [{
-			"id": "iPhone",
-			"articles": [{
-				"id": "unlock device",
-				"desc": "to unlock a device press power button"
-			}]
-		},
-		{
-			"id": "One plus",
-			"articles": [{
-				"id": "unlock device",
-				"desc": "to unlock a device press power button on your one plus"
-			}]
-		}
-	]
+	},
+	":type": "wcm/foundation/components/page"
 }
